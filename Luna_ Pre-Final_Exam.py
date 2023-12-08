@@ -8,10 +8,6 @@ def is_prime(num):
 
 
 def display_primes(start, end):
-    if start < 1:
-        print("Please enter a non-negative number.")
-        return
-
     if end < start:
         print(f"Enter a number greater than {start}.")
         return
